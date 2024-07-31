@@ -1,0 +1,42 @@
+.q-carousel {
+  max-width: 1900px;
+  height: 430px;
+  object-fit: cover;
+}
+
+/* Contêiner das setas */
+.custom-arrows {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+  padding: 0 16px;
+}
+
+/* Estilo das setas */
+.arrow-btn {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Estilo da seta esquerda */
+.arrow-left {
+  background-color: #002b11;
+}
+
+/* Estilo da seta direita */
+.arrow-right {
+  background-color: #002b11;
+}
+
+/* Ajuste o tamanho do ícone dentro do botão */
+.q-btn .q-icon {
+  font-size: 24px;
+}

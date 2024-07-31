@@ -1,6 +1,6 @@
 <template>
   <q-layout view="lHh Lpr lFf">
-    <q-header elevated>
+    <q-header class="header">
       <q-toolbar>
         <q-btn
           flat
@@ -11,7 +11,7 @@
           @click="toggleLeftDrawer"
         />
 
-        <q-toolbar-title> Sou du Sul ! </q-toolbar-title>
+        <q-toolbar-title>Vamos desbravar o Rio Grande do Sul? </q-toolbar-title>
       </q-toolbar>
     </q-header>
 
@@ -26,17 +26,21 @@
         />
       </q-list>
     </q-drawer>
-
     <q-page-container>
-      <router-view />
+      <q-page class="q-pa-md">
+        <ImageCarousel />
+      </q-page>
     </q-page-container>
   </q-layout>
+
+  >
 </template>
 
 <script setup>
 import { ref } from "vue";
-import EssentialLink from "components/EssentialLink.vue";
 import { linksList } from "/src/utils/linksList.js";
+import EssentialLink from "components/EssentialLink.vue";
+import ImageCarousel from "/src/components/ImageCarousel/ImageCarousel.vue";
 import MainLayout from "/src/layouts/MainLayout.css";
 
 defineOptions({
