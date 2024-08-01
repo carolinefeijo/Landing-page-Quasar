@@ -32,8 +32,6 @@
       </q-page>
     </q-page-container>
   </q-layout>
-
-  >
 </template>
 
 <script setup>
@@ -41,7 +39,7 @@ import { ref } from "vue";
 import { linksList } from "/src/utils/linksList.js";
 import EssentialLink from "components/EssentialLink.vue";
 import ImageCarousel from "/src/components/ImageCarousel/ImageCarousel.vue";
-import styles from "/src/layouts/styles.css";
+import styles from "./styles.css";
 
 defineOptions({
   name: "MainLayout",

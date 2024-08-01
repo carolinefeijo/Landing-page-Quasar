@@ -34,4 +34,8 @@ export const linksList = [
     icon: "diversity_1",
     link: "https://infodiretas.com.br/pesquisa-revela-regioes-do-rs-em-que-as-pessoas-se-sentem-mais-felizes/",
   },
+  {
+    title: "Sair",
+    icon: "logout",
+  },
 ];
