@@ -42,7 +42,7 @@
 <script setup>
 import { ref } from "vue";
 import { slides } from "/src/utils/slides.js";
-import ImageCarousel from "/src/components/ImageCarousel/ImageCarousel.css";
+import styles from "./styles.css";
 
 const slide = ref(1);
 </script>

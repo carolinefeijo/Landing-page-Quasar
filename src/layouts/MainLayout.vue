@@ -41,7 +41,7 @@ import { ref } from "vue";
 import { linksList } from "/src/utils/linksList.js";
 import EssentialLink from "components/EssentialLink.vue";
 import ImageCarousel from "/src/components/ImageCarousel/ImageCarousel.vue";
-import MainLayout from "/src/layouts/MainLayout.css";
+import styles from "/src/layouts/styles.css";
 
 defineOptions({
   name: "MainLayout",
